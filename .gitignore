@@ -1,6 +1,7 @@
 # Start of .gitignore
-UltiMaker Cura 5.11.0/
-output_gcode/
-output_models/
+UltiMaker Cura*/
+
 __pycache__/
 *.ipynb_checkpoints
+.claude/
+CLAUDE.md

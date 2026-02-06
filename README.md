@@ -1,24 +1,22 @@
-# S4 Slicer
-A generic non-planar slicer, that can print almost any part without support.
+# 5licer
 
-Please use the [dicussions tab](https://github.com/jyjblrd/S4_Slicer/discussions) to ask questions and help others.
+A non-planar 5-axis slicer for FDM 3D printing. Deforms a mesh to eliminate overhangs, slices with a conventional slicer, then transforms the G-code back to the original geometry with rotation commands for a 5-axis printer.
 
-[Try it now](https://colab.research.google.com/github/jyjblrd/S4_Slicer) on Google Colab! (note: colab free tier is only powerful enough to slice very simple models)
+[Try it now](https://colab.research.google.com/github/ProProPrin/5licer) on Google Colab! (note: Colab free tier is only powerful enough to slice very simple models)
 
-[![Watch the video](https://github.com/jyjblrd/S4_Slicer/blob/main/thumnail.jpeg?raw=true)](https://www.youtube.com/watch?v=M51bMMVWbC8)
+Please use the [discussions tab](https://github.com/ProProPrin/5licer/discussions) to ask questions and help others.
 
-Check out my [YouTube video](https://youtu.be/M51bMMVWbC8?si=pfud7bHgjYDnO2_z) for more details!
+## Citation
 
-Thank you to JLCCNC for helping create the extruder mount and build plate for my [4 Axis Core R-Theta Printer](https://github.com/jyjblrd/Core-R-Theta-4-Axis-Printer).
-
-
-
-Bibtex Citation:
-```
-@software{Bird_S4_Slicer,
-author = {Bird, Joshua},
+```bibtex
+@software{5licer,
+author = {ProProPrin},
 license = {GPL-3.0},
-title = {{S4 Slicer}},
-url = {https://github.com/jyjblrd/S4_Slicer}
+title = {{5licer}},
+url = {https://github.com/ProProPrin/5licer}
 }
 ```
+
+## Acknowledgments
+
+This project is based on [S4 Slicer](https://github.com/jyjblrd/S4_Slicer) by Joshua Bird.

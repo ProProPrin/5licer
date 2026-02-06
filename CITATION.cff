@@ -2,15 +2,14 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: S4 Slicer
+title: 5licer
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
 type: software
 authors:
-  - given-names: Joshua
-    family-names: Bird
-    email: jyjb2@cantab.ac.uk
-repository-code: 'https://github.com/jyjblrd/S4_Slicer'
-abstract: Generic Non-Planar Slicer
+  - name: ProProPrin
+
+repository-code: 'https://github.com/ProProPrin/5licer'
+abstract: Non-planar 5-axis slicer for FDM 3D printing
 license: GPL-3.0
