@@ -1,10 +1,15 @@
 # 5licer
 
+⚠️ **現在開発中 / WORK IN PROGRESS** ⚠️
+
+このプロジェクトは現在製作途中のため、まだ使用できません。
+**This project is currently under development and not yet functional.**
+
+---
+
 A non-planar 5-axis slicer for FDM 3D printing. Deforms a mesh to eliminate overhangs, slices with a conventional slicer, then transforms the G-code back to the original geometry with rotation commands for a 5-axis printer.
 
-[Try it now](https://colab.research.google.com/github/ProProPrin/5licer) on Google Colab! (note: Colab free tier is only powerful enough to slice very simple models)
-
-Please use the [discussions tab](https://github.com/ProProPrin/5licer/discussions) to ask questions and help others.
+**Note:** The original [S4 Slicer](https://github.com/jyjblrd/S4_Slicer) by Joshua Bird is fully functional. This fork is being adapted for 5-axis printing.
 
 ## Citation
 
